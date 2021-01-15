@@ -1,0 +1,115 @@
+{
+  "packageName": "Konnected (Pro)",
+  "author": "Konnected + Elliot",
+  "version": "1.0.0",
+  "minimumHEVersion": "2.1.9",
+  "dateReleased": "2021-01-15",
+  "apps": [
+    {
+      "id": "c5109a6e-3003-422b-8d94-1524f53df77d",
+      "name": "Konnected Pro",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/apps/konnected-pro.groovy",
+      "required": true,
+      "oauth": false,
+      "primary": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "272a1214-a672-43c6-aca3-fc50e3ac9826",
+      "name": "Konnected Pro Device",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/apps/konnected-pro-device.groovy",
+      "required": true,
+      "oauth": false,
+      "primary": false,
+      "version": "1.0.0"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "3a527d80-2f8d-42ef-a2b0-d175fcd6ce29",
+      "name": "Konnected Beep/Blink",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-beep-blink.groovy",
+      "required": true
+    },
+    {
+      "id": "d0477bb3-5945-4472-b1d4-b493b20ce013",
+      "name": "Konnected CO Sensor",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-co-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "1cb7e000-dec0-4d7f-93e7-cbac9f7ab524",
+      "name": "Konnected Contact Sensor",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-contact-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "026f2833-08d7-4d87-8f63-4a765a60483d",
+      "name": "Konnected Momentary Switch",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-momentary-switch.groovy",
+      "required": true
+    },
+    {
+      "id": "398f384f-4073-4d1a-9443-c4148be7e7e2",
+      "name": "Konnected Motion Sensor",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-motion-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "5cef4b5c-22a5-4340-af1f-5205205218dd",
+      "name": "Konnected Panic Button",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-panic-button.groovy",
+      "required": true
+    },
+    {
+      "id": "80b9462d-4eb6-4c98-b610-90a00b5ac28d",
+      "name": "Konnected Siren/Strobe",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-siren-strobe.groovy",
+      "required": true
+    },
+    {
+      "id": "dde61233-6e0f-4e14-a211-7718361073e5",
+      "name": "Konnected Smoke Sensor",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-smoke-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "2310074f-6032-4c52-974c-ac024fb95184",
+      "name": "Konnected Switch",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-switch.groovy",
+      "required": true
+    },
+    {
+      "id": "184d6110-3c60-40c5-81e6-945ffaa4e310",
+      "name": "Konnected Temperature & Humidity Sensor (DHT)",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-temperature-humidity-sensor-dht.groovy",
+      "required": true
+    },
+    {
+      "id": "aeb8c113-765e-4b90-9f16-51aa36d8230d",
+      "name": "Konnected Temperature Probe (DS18B20)",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-temperature-probe-ds18b20.groovy",
+      "required": true
+    },
+    {
+      "id": "f1e72eaf-1d3a-4ae4-aba8-99d44146cb8e",
+      "name": "Konnected Water Sensor",
+      "namespace": "konnected-io",
+      "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/drivers/konnected-water-sensor.groovy",
+      "required": true
+    }
+  ]
+}
