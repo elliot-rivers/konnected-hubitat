@@ -11,7 +11,7 @@
       "namespace": "konnected-io",
       "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/apps/konnected-pro.groovy",
       "required": true,
-      "oauth": false,
+      "oauth": true,
       "primary": false,
       "version": "1.0.0"
     },
@@ -21,7 +21,7 @@
       "namespace": "konnected-io",
       "location": "https://raw.githubusercontent.com/elliot-rivers/konnected-hubitat/master/apps/konnected-pro-device.groovy",
       "required": true,
-      "oauth": false,
+      "oauth": true,
       "primary": false,
       "version": "1.0.0"
     }
